@@ -1,0 +1,26 @@
+/* navbar responsive  */
+@media (max-width: 992px) {
+  .navbar .links,
+  .navbar .btn{
+    display: none;
+  }
+
+  .navbar .toggle_btn{
+    display: block;
+
+  }
+
+  .dropdown_menu{
+    display: block;
+  }
+}
+
+
+/* dropdown menu  */
+
+@media (max-width: 576px){
+  .dropdown_menu{
+    left: 2rem;
+    width: unset;
+  }
+}

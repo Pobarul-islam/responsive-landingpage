@@ -1,0 +1,49 @@
+/* ==========< Flex & Grid Utilities >========== */
+.grid {
+  display: grid;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.place-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  padding: 2rem;
+}
+
+.btn {
+  background-color: #8d448b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+a:hover{
+  scale: 0.95;
+  color: orange;
+}
+.btn:hover{
+  scale: 0.95;
+ 
+}
