@@ -46,11 +46,6 @@ h6 {
 
 /* ==================== Header Section CSS Start ==================== */
 
-.header {
-  padding: 28px;
-  height: 80vh;
-}
-
 .navbar {
   margin: 0 auto;
   display: flex;
@@ -312,4 +307,18 @@ form select{
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   gap: 80px;
+}
+
+.video-icon {
+  display: flex;
+  border-radius: 5px;
+  background-color: #8d448b;
+  width: 50%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  margin-top: 32px;
+  margin-left: -37px;
 }
