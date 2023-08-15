@@ -19,7 +19,7 @@
   --font-Regular: 400;
   --font-light: 300;
 
-  --container-width: 1400px;
+  --container-width: 1200px;
 
   --transition: 0.5s all ease-in-out;
 }
@@ -123,16 +123,193 @@ h6 {
   background-repeat: no-repeat;
   background-position: center center;
   width: 100%;
-  height: 100vh; /* 100% of the viewport height */
-  position: fixed;
+  height: 100vh;
   top: 0;
   left: 0;
   z-index: -1;
 }
 
+/* form  */
 
+.form {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  width: 30%;
+  background: #fff;
+  border-radius: 5px;
+  text-align: center;
+  padding: 30px 30px 5px 30px;
+  opacity: 90%;
+}
 
+.form header {
+  font-size: 30px;
+  font-weight: bold;
+}
 
+.form form {
+  margin: 40px 0;
+}
 
+form .field {
+  width: 100%;
+  margin-bottom: 20px;
+}
 
+form .field .input-area {
+  position: relative;
+}
 
+.form input {
+  height: 75px;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  padding-left: 40px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 1px solid darkmagenta;
+}
+
+.form input::placeholder {
+  color: #bfbfbf;
+  font-size: 16px;
+}
+
+form .field i {
+  position: absolute;
+  top: 50%;
+  font-size: 16px;
+  pointer-events: none;
+  transform: translateY(-50%);
+}
+
+form .field .icon {
+  right: 15px;
+}
+h2 {
+  font-size: 30px;
+  font-weight: bold;
+  line-height: 75px;
+}
+
+.form p {
+  text-align: start;
+  line-height: 42px;
+}
+.subscribe_btn {
+  width: 100%;
+  background-color: #8d448b;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 4px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* select btn  */
+
+/* form .select-btn{
+  margin-top: 20px;
+}
+
+form select{
+  height: 50px;
+  width: 100%;
+  outline: none;
+  padding: 0 15px;
+  border-radius: 5px;
+} */
+
+.option-btn {
+  position: absolute;
+  border: none;
+  left: 9%;
+  margin-top: 12%;
+}
+
+/* meet section  */
+
+.meet_section {
+  height: 25vh;
+}
+
+.meet-heading {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.meet-heading h3 {
+  font-size: 18px;
+  color: var(--primary-Color);
+}
+.meet-heading p {
+  font-size: 30px;
+  color: var(--dark-Color);
+}
+
+/* company logo  */
+.company-logo {
+  display: flex;
+  gap: 90px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 112px;
+}
+
+/* startup section  */
+
+.startup {
+  margin-top: 200px;
+}
+
+.startup-icon {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 40px;
+  gap: 30px;
+}
+
+.business-text .icon-heading {
+  font-size: 46px;
+  line-height: 65px;
+  color: #0f2137;
+}
+
+.business-text .sub-text {
+  font-size: 16px;
+  line-height: 35px;
+  color: #343d48;
+  margin-top: 20px;
+}
+
+.group .heading {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 4px;
+}
+.group p {
+  font-size: 15px;
+  line-height: 22px;
+  text-align: left;
+  display: inline-block;
+  width: 189px;
+}
+
+.business-video {
+  background-image: url("../images/image\ 18.png");
+  background-repeat: no-repeat;
+  width: 70vh;
+  height: 600px;
+  margin-bottom: 5px;
+}
+
+.startup {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 80px;
+}
