@@ -1,9 +1,5 @@
 /* ================ Google Fonts ================ */
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap');
-
-
-
-
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap");
 
 /* ============ custom color,fonts and width ============ */
 :root {
@@ -12,7 +8,7 @@
   --dark-Blue: #02073e;
   --dark-Color: #424147;
   --white-Color: #fff;
-  
+
   --font-DM-Sans: "DM Sans", sans-serif;
   --small-font-size: 16px;
   --midum-font-size: 20px;
@@ -23,7 +19,7 @@
   --font-Regular: 400;
   --font-light: 300;
 
- --container-width: 1400px;
+  --container-width: 1400px;
 
   --transition: 0.5s all ease-in-out;
 }
@@ -31,13 +27,11 @@
 /* ==================== Body ==================== */
 body {
   font-family: var(--font-DM-Sans);
-
 }
 
 /* ========== Container ========== */
 .container {
   max-width: var(--container-width);
-
 }
 
 h1,
@@ -51,33 +45,32 @@ h6 {
 
 /* ==================== Header Section CSS Start ==================== */
 
-.header{
+.header {
   position: relative;
   padding: 0 2rem;
-
 }
 
-.navbar{
+.navbar {
   width: 100%;
   height: 60px;
-  max-width:var(--container-width);
+  max-width: var(--container-width);
   margin: 0 auto;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
-.navbar .logo a{
+.navbar .logo a {
   font-size: var(--midum-font-size);
   font-weight: bold;
 }
 
-.navbar .links{
+.navbar .links {
   display: flex;
   gap: 2rem;
 }
 
-.navbar .toggle_btn{
+.navbar .toggle_btn {
   color: var(--white-Color);
   font-size: var(--small-font-size);
   cursor: pointer;
@@ -85,10 +78,9 @@ h6 {
   color: var(--dark-Blue);
 }
 
-
 /* dropdown menu  */
 
-.dropdown_menu{
+.dropdown_menu {
   display: none;
   position: absolute;
   right: 2rem;
@@ -99,26 +91,33 @@ h6 {
   backdrop-filter: blur(15px);
   border-radius: 10px;
   overflow: hidden;
-  transition: height 0.1 cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  transition: height 0.5s ease-in-out;
 }
 
-.dropdown_menu.open{
-    height: 240px;
+.dropdown_menu.open {
+  height: 240px;
 }
 
-
-.dropdown_menu li{
+.dropdown_menu li {
   padding: 0.7rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.dropdown_menu .btn{
+.dropdown_menu .btn {
   width: 100%;
   display: flex;
   justify-content: center;
 }
 
-
 /* hero section  */
+
+
+.logo{
+  gap: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
