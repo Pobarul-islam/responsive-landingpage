@@ -33,6 +33,7 @@ body {
 .container {
   max-width: var(--container-width);
   margin: 0 auto;
+  
 }
 
 h1,
@@ -45,6 +46,7 @@ h6 {
 }
 
 /* ==================== Header Section CSS Start ==================== */
+
 
 .navbar {
   margin: 0 auto;
@@ -116,12 +118,12 @@ h6 {
   background-image: url("../images/hero.png");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
   width: 100%;
   height: 100vh;
   top: 0;
   left: 0;
   z-index: -1;
+  
 }
 
 /* form  */
@@ -229,9 +231,6 @@ form select{
 
 /* meet section  */
 
-.meet_section {
-  height: 25vh;
-}
 
 .meet-heading {
   text-align: center;
@@ -321,4 +320,73 @@ form select{
   color: white;
   margin-top: 32px;
   margin-left: -37px;
+}
+
+
+
+
+/* gallery section  */
+
+.work-place{
+  margin-top: 140px;
+  margin-bottom: 4px;
+
+}
+
+.gallery-heading{
+  text-align: center;
+
+}
+
+   .row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  margin-top: 35px;
+}
+
+.column {
+  flex: 25%;
+  max-width: 33.3%;
+  padding: 0 4px;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+  /* filter: grayscale(1) brightness(0.5); */
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s linear;
+}
+
+.column img:hover {
+  filter: grayscale(0);
+}
+
+
+/* explore button  */
+.explore-btn{
+  /* text-align: center; */
+  margin-top: 40px;
+
+}
+
+.explore-btn button{
+position: relative;
+border-radius: 5px;
+background-color: #edf0f2;
+width: 100%;
+height: 60px;
+border: none;
+margin-bottom: 15px;
+
+
+}
+
+.explore-btn button i{
+  justify-content: center;
+align-items: center;
+margin-left: 10px;
 }

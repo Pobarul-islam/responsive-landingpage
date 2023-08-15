@@ -25,10 +25,28 @@
 
 /* hero section responsive  */
 
-@media screen and (max-width: 600px) {
-  .container {
-    width: 100%;
-    margin-top: 0;
+  @media (max-width: 768px) {
+    .section {
+      font-size: 16px;
+    }
+  }
+
+/* meet section responsive  */
+
+
+
+
+
+
+
+/* gallery responsive  */
+
+@media screen and (max-width: 700px) {
+  .column {
+    flex: 100%;
+    max-width: 100%;
+  }
+  .column img {
+    filter: grayscale(0) brightness(1);
   }
 }
-/* meet section responsive  */
